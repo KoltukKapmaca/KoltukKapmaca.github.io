@@ -8,6 +8,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
   <title>Dünyanın En Zor Oyunu...</title>
   <style>
+  <h1>Başlık</h1>
     body {
       color: #ffffff;
       font-family: sans-serif;
@@ -16,20 +17,26 @@
       padding: 0;
     }
     :root, body.is-fullscreen {
-      background-color: #000000;
+      background-color: #910921;
     }
     [hidden] {
       display: none !important;
     }
     h1 {
       font-weight: normal;
+	  text-align: center;
+	  margin-top: 50px;
     }
     a {
       color: inherit;
       text-decoration: underline;
       cursor: pointer;
     }
-
+	   small {
+      text-align: center;
+      display: block;
+	  margin-top: 500px;
+    }
     #app, #loading, #error, #launch {
       position: absolute;
       top: 50%;
@@ -319,5 +326,6 @@
     };
     run().catch(handleError);
   </script>
+    <small style="font-size: 12px;">koltukkapmacaoyunu@gmail.com</small>
 </body>
 </html>
